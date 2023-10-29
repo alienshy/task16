@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 900px;
+    background-color: #c9c9c9;
+    .container {
+        max-width: 1400px;
+        padding: 0px 32px;
+        margin: auto;
+    
+
+    .headere {
+        width: 100%;
+        height: 800px;
+    background-color: #c9c9c9;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        .header1 {
+            
+            width: 60%;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 40px;
+
+            h1 {
+                color: rgb(46, 46, 93);
+                font-family: 'Inter', sans-serif;
+                position: relative;
+                text-align: start;
+                font-size: 80px;
+            }
+
+            p {
+                font-family: 'Open Sans', sans-serif;
+                text-align: start;
+            }
+
+            button {
+                background-color: darkslategray;
+                width: 15%;
+                height: 40px;
+                border: none;
+
+                &:hover {
+                    background-color: red;
+                }
+            }
+
+            a {
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+                text-align: start;
+
+                &:hover {
+                    color: rgb(10, 75, 59);
+                }
+
+            }
+        }
+
+        .header2 {
+            
+            width: 30%;
+            height: 680px;
+            
+
+            .sdf {
+                overflow: hidden;
+                position: relative;
+                top: 10px;
+                background-size: cover;
+                object-fit: cover;
+                width: 60%;
+                height:100%;
+                transition: transform 0.3s;
+                animation: zoom 1s infinite alternate;
+            }
+
+            @keyframes zoom {
+                0% {
+                    transform: scale(1);
+                }
+
+                100% {
+                    transform: scale(1.1);
+                }
+            }
+
+        }
+    }
+}
+}
